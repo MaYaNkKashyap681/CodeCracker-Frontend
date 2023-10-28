@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const Hero = () => {
@@ -19,11 +20,13 @@ const Hero = () => {
                 >
                     Increase your Productivity by 10x using CodeCrack
                 </h1>
-                <div className="mt-[4rem]">
-                    <button className="w-full transition duration-150 ease-in-out bg-opacity-25 text-zinc-100 hover:text-white  hover:bg-opacity-30 bg-primary rounded-lg p-2">
-                        Get Started for Free Today!
-                    </button>
-                </div>
+                <Link to="/repos">
+                    <div className="mt-[4rem]">
+                        <button className="w-full transition duration-150 ease-in-out bg-opacity-25 text-zinc-100 hover:text-white  hover:bg-opacity-30 bg-primary rounded-lg p-2">
+                            Explore your Repos
+                        </button>
+                    </div>
+                </Link>
             </div>
         </section>
     )
