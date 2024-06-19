@@ -18,7 +18,7 @@ const Hero = () => {
                     className="pb-4 text-center font-extrabold tracking-tight text-transparent text-7xl lg:text-8xl  bg-clip-text bg-gradient-to-r from-zinc-200/60 via-zinc-200 to-zinc-200/60"
                     data-aos="fade-down"
                 >
-                    Increase your Productivity by 10x using CodeCrack
+                    Increase your Productivity by 10 times using CodeCrack
                 </h1>
                 <Link to="/repos">
                     <div className="mt-[4rem]">
